@@ -1,0 +1,8 @@
+{
+    "name": "masterbrotranslator",
+    "version": "1.0.0",
+    "description": "Translator Bot",
+    "main": "bot.py",
+    "author": "Max Allanson",
+    "dependencies": {}
+}
