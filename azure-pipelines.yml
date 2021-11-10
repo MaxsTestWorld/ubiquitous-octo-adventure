@@ -25,7 +25,7 @@ stages:
   dependsOn: Build
   displayName: Deploy to Azure
   env:
-    MY_MAPPED_ENV_VAR: $(mySecret)
+    MY_MAPPED_ENV_VAR: $(mySecretChanged2)
   jobs:
     pool:
       vmImage: 'ubuntu-latest'
