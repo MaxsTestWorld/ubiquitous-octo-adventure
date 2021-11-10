@@ -22,7 +22,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    messagefiltered = message.content.replace('!translate', '')
+    messagefiltered = message.content.replace('!t', '')
     body = [{"text": messagefiltered}]
 
     subscription_key = os.getenv('KEY_VAR_NAME')
